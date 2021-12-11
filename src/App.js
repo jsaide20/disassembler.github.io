@@ -22,7 +22,6 @@ function App() {
     }
 
   return (
-      <BrowserRouter>
           <div>
               <HamburgerMenu isOn={isOn} toggle={toggle}/>
               <Navbar toggle={toggle}/>
@@ -34,7 +33,6 @@ function App() {
                 <Route path="/Report" element={<ReportError/>} />
               </Routes>
           </div>
-      </BrowserRouter>
   );
 }
 
