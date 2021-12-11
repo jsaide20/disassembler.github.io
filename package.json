@@ -1,6 +1,6 @@
 {
   "name": "disassembler",
-  "homepages": "https://jsaide20.github.io/disassembler.github.io/",
+  "homepage": "https://jsaide20.github.io/disassembler.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
