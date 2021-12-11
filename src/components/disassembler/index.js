@@ -70,6 +70,7 @@ const verilog_keys = new Map([['add','3rdrsrt'],['addu', '3rdrsrt'],['and','3rdr
 
 
 function start(instructions){
+  instructions += '\n'
   var delimiter = '\n'
   const output=[];
   var i = 0;
