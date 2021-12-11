@@ -151,8 +151,11 @@ function start(instructions){
           let rd = separateRD(line)
           instance += computeRegister(rd)
         }
-
-        else if(temp === 'im'){
+        else if(temp === 'sa') {
+          instance += ' '
+          instance += decodeShamt(line)
+        }
+      else if(temp === 'im'){
           let im = decodeImmediate(line)
           instance += ' '
           instance += im;
