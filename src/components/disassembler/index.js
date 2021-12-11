@@ -21,6 +21,10 @@ function convertToOneString(arrayOutput) {
   return result;
 }
 
+function start(fileContent) {
+  return fileContent;
+}
+
 const Disassembler = () => {
   const [fileContent, setFileContent] = useState(null);
   const [textValue, setValue] = useState('');
@@ -58,7 +62,8 @@ const Disassembler = () => {
   const onStartClick = () => {
     if (isValidFile) {
       const resultOutput = start(fileContent);
-      const realOutput = convertToOneString(resultOutput);
+      //const realOutput = convertToOneString(resultOutput);
+      const realOutput = resultOutput;
       setValue(realOutput); //set value so result area can display output
       handleChange(realOutput);
     }
