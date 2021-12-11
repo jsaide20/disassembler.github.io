@@ -83,7 +83,7 @@ Users can:
  
 ## Wireframes
 ![Color way](https://github.com/jsaide20/disassembler.github.io/blob/main/files/media/color_scheme.PNG)
-![Homepage](https://github.com/jsaide20/proj3339/blob/master/files/media/homepage.png)
+![Homepage](https://github.com/jsaide20/disassembler.github.io/blob/main/files/media/homepage.png)
 https://www.figma.com/file/agDKzd86V69z52OuyuFPDq/Disassembler?node-id=0%3A1
 
 ## Schema
